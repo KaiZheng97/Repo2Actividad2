@@ -26,6 +26,7 @@ public class Testing {
 		System.out.println(j1.getDorsal());
 		j1.ponerDorsal(35);
 		System.out.println(j1.getDorsal());
+		System.out.println(j1.estaExpulsado());
 	}
 
 }
