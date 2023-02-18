@@ -1,6 +1,15 @@
 package javabeans;
 
+/**
+ *Clase Jugador que nos hace saber, el dorsal del jugador, y la cantidad de faltas que ha cometido
+ *y dependiendo de la cantidad, sabremos si está expulsado o no
+ * 
+ * @author Kai
+ *@version 2.0
+ *
+ */
 public class Jugador {
+	
 	
 	private int dorsal;
 
@@ -68,9 +77,6 @@ public class Jugador {
                   }                          
 
                   return expulsado;
-
     }    
     
-    
-
 }
