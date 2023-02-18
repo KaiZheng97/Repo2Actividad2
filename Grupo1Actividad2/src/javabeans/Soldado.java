@@ -1,8 +1,8 @@
 package javabeans;
 
 /**
- * Clase java que te hace saber si un soldado </b>está muerto o no, y el número de balas que tiene</b>
- * Con método a </b>disparar a otro soldado</b> y ver si puede  disparar según </b>si tiene o no balas</b>
+ * Clase java que te hace saber si un soldado está muerto o no, y el número de balas que tiene
+ * Con método a disparar a otro soldado y ver si puede  disparar según si tiene o no balas
  * 
  * @author Kai
  *@version 1.0
@@ -22,7 +22,7 @@ public class Soldado {
 
  /**
   * Nos devuelve el estado del soldado
-  * @return
+  * @return nos devuelve el estado de la variable estaMuerto
   */
     public boolean isEstaMuerto() {
 		return estaMuerto;
@@ -30,7 +30,7 @@ public class Soldado {
     /**
      * Nos deja modificar el estado del soldado 
      * 
-     * @param estaMuerto  Si está muerto se pone true, sino le ponemos un false
+     * @param estaMuerto  Si está muerto se pone true, sino se  pone en false
      */
 	public void setEstaMuerto(boolean estaMuerto) {
 		this.estaMuerto = estaMuerto;
@@ -67,12 +67,9 @@ public class Soldado {
 
    
 /**
- * 
- * Método que dispara a un soldado, resta una bala de su número de balas,
- *  y pone en estado de muerto al soldado disparado
- *  
- *  * @param sol  Este parámetro indica el soldado al va a disparar
- * 
+ * Método que nos permite disparar a un soldado, restando una bala de nuestro cargador
+ * y además cambia de estado al soldado afectado a muerto
+ * @param sol Este parámetro es el soldado al cuál queremos disparar
  */
     public void disparar(Soldado sol) {
 
