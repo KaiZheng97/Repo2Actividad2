@@ -44,7 +44,7 @@ public class Soldado {
 	//METODOS DE CLASE
 	
 	/**
-	 * Este método determina si el soldado puede disparar analizando si el número de balas del que dispones es mayor que 0.
+	 * Este método determina si el soldado puede disparar analizando si el número de balas del que dispone es mayor que 0.
 	 * @return True si el número de balas es mayor a 0. False en caso contrario.
 	 */
 	public boolean puedeDisparar() {
