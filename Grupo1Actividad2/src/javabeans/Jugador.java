@@ -3,7 +3,7 @@ package javabeans;
 
 	/**
 	 * En esta clase diseñaremos la base para crear objetos Jugador de fútbol, 
-	 * los cuales dispondrán de varios atributos y dos métodos que intercactúan sobre dichos objetos.
+	 * los cuales dispondrán de varios atributos y dos métodos que interactúan sobre dichos objetos.
 	 * 
 	 * @author Sergio
 	 * @version 1.0
@@ -28,7 +28,7 @@ public class Jugador {
     private int numeroTarjetasRojas;
 
     
-    //GETTER Y SETTER
+    //GETTER AND SETTER
 	public int getDorsal() {
 		return dorsal;
 	}
