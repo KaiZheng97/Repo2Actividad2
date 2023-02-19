@@ -69,7 +69,7 @@ class TestSoldado {
 	 * Utilizamos un condicional if para introducir el metodo puedeDisparar.
 	 */
 	@Test
-	public void disparar() {
+	public void testDisparar1() {
 		s1.setNumeroBalas(6);
 		
 	/**
@@ -78,7 +78,6 @@ class TestSoldado {
 	 */
 		int balas = s1.getNumeroBalas();
 
-		
 		if (s1.puedeDisparar() == true) {
 			s1.disparar(sol);
 		}
@@ -94,7 +93,7 @@ class TestSoldado {
 	 * Al ser false, dentro del if no se ejecuta el método disparar().
 	 */
 	@Test
-	public void disparar2() {
+	public void testDisparar2() {
 		s1.setNumeroBalas(0);
 		int balas = s1.getNumeroBalas();
 		
