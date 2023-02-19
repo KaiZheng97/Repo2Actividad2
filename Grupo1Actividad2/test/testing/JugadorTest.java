@@ -58,17 +58,17 @@ class JugadorTest {
 	/**
 	 * Para comprobar si el método estaExpulsado() funciona según
 	 * lo esperado hemos creado tres pruebas:
-	 * <ol>
-	 * <li>Una primera en la que se espera que el resultado sea false, pasando valores menores
-	 * 	   a dos en el caso de tarjetas amarillas y menores a 1 en el de tarjetas rojas.
-	 * </li>
-	 * <li>Otra, que también dará false y le pasaremos valores mayores que 2 para las tarjetas amarillas y 
-	 * 	   mayores que uno para las rojas.
-	 * </li>
-	 * <li>La última, será para probar que cuando las tarjetas amarillas reciben el valor 2 y las rojas el 1
-	 * 	   el resultado es true y, por lo tanto, el jugador está expulsado.
-	 * </li>
-	 * </ol>
+	 * 
+	 *1. Una primera en la que se espera que el resultado sea false, pasando valores menores
+	 * 	 a dos en el caso de tarjetas amarillas y menores a 1 en el de tarjetas rojas.
+	 *
+	 *2. Otra, que también dará false y le pasaremos valores mayores que 2 para las tarjetas amarillas y 
+	 * 	 mayores que uno para las rojas.
+	 *
+	 *3. La última, será para probar que cuando las tarjetas amarillas reciben el valor 2 y las rojas el 1
+	 * 	 el resultado es true y, por lo tanto, el jugador está expulsado.
+	 * 
+	 * 
  	 */
 	
 	@Test 

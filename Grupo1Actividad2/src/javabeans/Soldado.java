@@ -1,14 +1,14 @@
 package javabeans;
 
 /**
- * The purpose of this class is to <b>check</b> both, if a soldier 
- * has <b>enough bullets to shoot</b> and if a soldier <b>is dead</b>.
+ * The purpose of this class is to check both, if a soldier 
+ * has enough bullets to shoot and if a soldier is dead.
  * 
  * To achieve this we have two methods:
- * <ul>
- * 	<li>puedeDisparar</li>
- * 	<li>disparar</li>
- * </ul>
+ * 
+ * 	1. puedeDisparar()
+ * 	2. disparar()
+ * 
  * 
  * 
  *

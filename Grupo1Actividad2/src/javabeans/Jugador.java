@@ -1,14 +1,13 @@
 package javabeans;
 
 /**
- * This <b>'Jugador' class</b> is used both to determine if a <b>player is expelled</b> or not 
- * and to <b>add a number on their back</b>.
+ * This 'Jugador' class is used both to determine if a player is expelled or not 
+ * and to add a number on their back.
  * 
  * For that, we have some methods such as: 
- *<ul>
- * 	  <li>ponerDorsal()</li>
- *    <li>estaExpulsado()</li>
- *</ul>
+ *
+ * 1. ponerDorsal()
+ * 2. estaExpulsado()
  * 
  * 
  * 

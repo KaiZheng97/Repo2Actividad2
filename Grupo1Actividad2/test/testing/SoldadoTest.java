@@ -21,10 +21,10 @@ class SoldadoTest {
 	/**
 	 * Para comprobar que el método puedeDisparar() funciona adecuadamente
 	 * lo haremos a traves de dos casuísticas: 
-	 * <ol>
-	 * <li>Un número mayor que cero</li>
-	 * <li>Un número menor que cero</li>
-	 * </ol>
+	 * 
+	 * 1. Un número mayor que cero
+	 * 2. Un número menor que cero
+	 * 
 	 * 
 	 * En el primer caso deberíamos obtener un boolean true, en el segundo un boolean false.
 	 */
@@ -53,10 +53,10 @@ class SoldadoTest {
 	 * ya que dependemos del método puedeDisparar().
 	 * 
  	 * Para comprobar el correcto funcionamiento, crearemos dos escenarios:
- 	 *  <ol>
-	 * <li>Poner el número de balas en positivo</li>
-	 * <li>Poner el número de balas a 0</li>
-	 * </ol>
+ 	 *  
+	 * 1. Poner el número de balas en positivo
+	 * 2. Poner el número de balas a 0
+	 *
  	 * 
  	 * En ambos casos, necesitamos validar si el soldado puede disparar. Cuando el
  	 * número de balas es un valor positivo soldado puede disparar a soldier,
