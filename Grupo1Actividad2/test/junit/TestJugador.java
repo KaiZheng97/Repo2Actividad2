@@ -15,6 +15,7 @@ class TestJugador {
 	 * Con BeforeEach haremos que antes de cada test el objeto sea nuevo.
 	 * Con AfterEach ayudamos a la claúsula de BeforeEach.
 	 */
+	
 	Jugador j1 = new Jugador();
 
 	@BeforeEach
