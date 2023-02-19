@@ -18,14 +18,12 @@ public class Jugador {
 	private int dorsal;
 	
 	/**
-	 * Dato de tipo entero que hace referencia al hecho de si el objeto Jugador
-	 * posee tarjetas amarillas y su cantidad. 
+	 * Dato de tipo entero que hace referencia a la cantidad de tarjetas amarillas que tiene el Jugador.
 	 */
     private int numeroTarjetasAmarillas;
     
     /**
-     * Dato de tipo entero que hace referencia al hecho de si el objeto Jugador
-	 * posee tarjetas rojas y su cantidad. 
+     * Dato de tipo entero que hace referencia a la cantidad de tarjetas rojas que tiene el Jugador.
      */
     private int numeroTarjetasRojas;
 
@@ -57,6 +55,13 @@ public class Jugador {
 	
 	//METODOS DE CLASE
 	
+	/**
+	 * Método que recibe un número entero para establecer el dorsal del jugador.
+	 * Con un condicional if acotamos que el dorsal esté comprendido entre los números 1 y 30.
+	 * En caso contrario establece el dorsal en -1.
+	 * @param dorsal es el dorsal a establecer.
+	 */
+	
     public void ponerDorsal(int dorsal) {
 
     	if(dorsal >= 1 && dorsal <= 30) {
@@ -66,6 +71,10 @@ public class Jugador {
     	}
     }
 
+    /**
+     * Método que determina si el jugador está o no expulsado en función del número de tarjetas amarillas o rojas que tenga.
+     * @return True en caso de tener 2 tarjetas amarillas o 1 roja. False en caso de tener de 0 a 1 tarjetas amarillas o 0 tarjetas rojas.
+     */
     public boolean estaExpulsado() {
     	
     	boolean expulsado = false;                                                  
