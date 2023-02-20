@@ -37,7 +37,8 @@ class TestSoldado {
 	 * Observamos que al usar un número mayor a 0 en el primer test, el método funciona correctamente y devuelve true, 
 	 * indicando que puede realizar un disparo.
 	 * Asimismo en el segundo test, con el valor 0 el método también opera correctamente devolviendo false.
-	 * Se podría realiza un test extra pasando un número negativo, pero es el equivalente para el método a recibir un 0, al ser la condición para true >0.
+	 * Se podría realiza un test extra pasando un número negativo, pero es el equivalente 
+	 * para el método a recibir un 0, al ser la condición para true >0.
 	 */
 	@Test
 	public void testPuedeDisparar1() {
