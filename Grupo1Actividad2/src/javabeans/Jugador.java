@@ -27,7 +27,7 @@ public class Jugador {
     private int numeroTarjetasRojas;
     
 /**
- * Método get 
+ * Método get para obtener el número dorsal del jugador
  * @return nos devuelve el número dorsal del jugador
  */
 	public int getDorsal() {
@@ -44,7 +44,6 @@ public class Jugador {
 	
 	/**
 	 * Nos devuelve la cantidad de amarillas que tiene el jugador
-	 * 
 	 * @return  Número de tarjetas amarillas que tiene el jugador
 	 */
 
@@ -67,6 +66,7 @@ public class Jugador {
 	public int getNumeroTarjetasRojas() {
 		return numeroTarjetasRojas;
 	}
+	
 	/**
 	 * Método que nos permite cambiar la cantidad de rojas que tiene un jugador
 	 * @param numeroTarjetasRojas  Cantidad de rojas
@@ -95,12 +95,10 @@ public class Jugador {
 
    /**
     * Método que comprueba si un jugador está expulsado según la cantidad
-    * de tarjetas amarillas o tarjetas rojas que tenga el jugador
-    * por defecto expulsado será false
-    * Si tiene tarjetasAmarillas es 2, será cambiado el estado de expulsado a true
-    * Si tiene tarjetasRojas es 1, será cambiado el estado de expulsado a true
-    * 
-    * @return devuelve el valor de la variable expulsado dependiendo de las tarjetas que tenga el jugador
+    * de tarjetas amarillas o tarjetas rojas que tenga el jugador 
+    * @return En caso de que un jugador tenga numeroTarjetasAmarillas a 2, el valor que devuelve expulsado será true
+    * En caso de que un jugador tenga numeroTarjetasRojas a 1, el valor que devuelve expulsado será true
+    * En caso de que no cumpla ninguno de los dos casos, devolverá expulsado false
     */
     public boolean estaExpulsado() {
                   boolean expulsado = false;  
