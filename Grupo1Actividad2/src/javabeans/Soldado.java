@@ -2,8 +2,8 @@ package javabeans;
 
 
 	/**	
-	 * En esta clase diseñaremos la base para crear objetos Soldado, 
-	 * los cuales dispondrán de varios atributos y dos métodos que interactúan con dichos objetos.
+	 * Esta clase presenta a un Soldado el cual dispone de varios atributos (estaMuerto y numeroBalas)
+	 * 
 	 * @author Sergio
 	 * @version 1.0
 	 */
