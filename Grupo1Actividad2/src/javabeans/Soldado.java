@@ -1,8 +1,8 @@
 package javabeans;
 
 /**
- * Clase que te hace saber si un soldado está muerto o no, y el número de balas que tiene
- * Con método a disparar a otro soldado y ver si puede  disparar según si tiene o no balas
+ * Clase de Soldado, contiene variable numeroBalas y estado de si está muerto o no 
+ * Con 2 métodos  disparar a otro soldado y ver si puede disparar según si tiene o no balas
  * 
  * @author Kai
  *@version 1.0

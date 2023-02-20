@@ -15,12 +15,9 @@ class JugadorTest {
 	
 	@BeforeEach
 	void creacion() throws Exception{
-		
 		// Sobreescribir el jugador 1 antes de cada ejecución de cada test de manera limpia
-		
 		j1 = new Jugador();
 		
-	
 	}
 	
 	@AfterEach
@@ -32,7 +29,6 @@ class JugadorTest {
 	
 	@Test
 	public void testPonerDorsalBien() {
-		
 		//Test para saber si el método ponerDorsal funciona cuando cumplen su condición 
 		//El dorsal se pondrá siempre y cuando su valor esté entre 1 y 30 ambos incluidos, vamos a darle valor de 5
 		j1.ponerDorsal(5);
@@ -45,36 +41,27 @@ class JugadorTest {
 	}
 	
 	@Test
-	
-	public void testPonerDorsalCero() {
+		public void testPonerDorsalCero() {
 		
 		//Segundo test para ver que cuando declaramos el ponerDorsal a cero, debería darnos un -1 
-		// Ya que no permite número fuera de su rango
-		
+		// Ya que no permite número fuera de su rango	
 		j1.ponerDorsal(0);
 		
 		int resultadoEsperado = -1;
 		int resultadoObtenido = j1.getDorsal();
 		// Comprobamos que tiene un correcto funcionamiento
-		
 		assertEquals( resultadoEsperado,resultadoObtenido);
 	}
 	
 	@Test
-	
-	 public void testPonerDorsalMal() {
+		 public void testPonerDorsalMal() {
 		//Test para comprobar que cualquier número que no esté comprendido entre 0 y 30
 		// NO se definirán en la variable dorsal
-		
 		j1.ponerDorsal(55);
-		
 		//Comprobamos que NO ha definido la variable dorsal a 55
-		
 		int resultadoNoEsperado = 55;
 		int resultadoObtenido = j1.getDorsal();
-		
 		assertNotEquals( resultadoNoEsperado,resultadoObtenido);
-		
 	}
 	
 	@Test
@@ -98,14 +85,11 @@ class JugadorTest {
 	public void testExpulsadoRojas() {
 		//Test método estaExpulsado 
 		//Consiste si está expulsado o no el jugador según su variable numeroTarjetasRojas
-				// Si la cantidad es de 1, su estado de expulsado pasará a ser true
-				
+				// Si la cantidad es de 1, su estado de expulsado pasará a ser true	
 				//Primero tendremos que setear su variable numeroTarjetasRojas a 1
 				j1.setNumeroTarjetasRojas(1);
-				
 				boolean resultadoObtenido= j1.estaExpulsado();
 				//Hacemos la comprobación de que el método estaExpulsado nos retorna valor de true
-				
 				assertTrue(resultadoObtenido);
 		
 	}

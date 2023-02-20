@@ -100,7 +100,7 @@ class SoldadoTest {
 				// Usamos el método puedeDisparar para comprobar primero si puede disparar
 				//Si no puede, no tendrá un decremento ni tampoco cambiará el estado de 
 				// estaMuerto de s2 a true
-				if (s1.puedeDisparar() == true){
+				if (s1.puedeDisparar() == true){ 
 					s1.disparar(s2);
 				}
 				boolean resultadoObtenido = s2.isEstaMuerto();
